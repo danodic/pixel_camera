@@ -4,9 +4,8 @@ using UnityEngine;
 
 /**
  * This is a pixel camera class to be used with Unity for 2d games. Attach this script to your camera and everything will
- * make sense once you start the game.
- * The idea is to have a pixel-perfect camera when working at a reference resolution, and have the proportinal scaling done
- * right when resizing the screen.
+ * make sense once you start the game. The idea is to have a pixel-perfect camera when working at a reference resolution,
+ * and have the proportinal scaling done right when resizing the screen.
  * 
  * When using this class it is recomended that you do all your element placement and resizing thru the code,
  * using the Scale and Pixel attributes.
@@ -21,7 +20,8 @@ using UnityEngine;
  * as a basis and the elements are scaled using Scale.
  * 
  * 2018 - Danilo Guimaraes - danilo.guimaraes@outlook.com.br
- * **/
+ * https://github.com/danodic/pixel_camera
+ **/
 public class PixelCamera : MonoBehaviour
 {
 
