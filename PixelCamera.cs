@@ -67,7 +67,7 @@ public class PixelCamera : MonoBehaviour
         Scale = new Vector3((float)Screen.width / ScreenRefSizeX, (float)Screen.height / ScreenRefSizeY, 0f);
 
         // Set the pixel size
-        Pixel = (float)(((double)this.camera.orthographicSize * 2d) / (int)ScreenRefSizeX);
+        Pixel = (float)(((double)this.camera.orthographicSize * 2d) / (int)ScreenRefSizeY);
 
         // Update attributes
         this.SizeX = SizeX;
